@@ -1,2 +1,15 @@
+
 betnix_accounts.json
+
+
 *_qr.png
+
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+venv/
+env/
