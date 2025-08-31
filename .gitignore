@@ -1,15 +1,47 @@
+# =========================
+# Betnix Authinator Git Ignore
+# =========================
 
+# Local account secrets
 betnix_accounts.json
 
-
+# QR code images
 *_qr.png
 
-
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-
+# Virtual environments
 venv/
 env/
+ENV/
+.venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# PyInstaller build files (for EXE packaging)
+dist/
+build/
+*.spec
+
+# Test outputs / coverage
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
